@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(41, 74, 74) !important;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+
+  text-align: center !important;
+  gap: 3rem !important ;
+}
+span {
+  font-weight: bold;
+}
+.card {
+  border-radius: 5px;
+  width: 20rem;
+  height: 29rem;
+}
+.flag {
+  justify-content: center;
+  place-content: center;
+  text-align: center;
+  width: 10rem;
+  height: 10rem;
+  margin: auto;
+}
+.car {
+  line-height: normal;
+}
+.name {
+  background-color: black;
+  color: rgb(245, 240, 240);
+  font-size: medium;
+  padding: 15px;
+  border: 1px solid#ccc;
+  border-radius: 3px;
+}
+.card1 {
+  background-color: rgb(148, 148, 155);
+  border: 1px solid#ccc;
+}
+.country {
+  color: white;
+}
+.a {
+  border: 1px solid white;
+  padding: 10px 10px;
+  border-radius: 4px;
+  color: white;
+}
